@@ -1,0 +1,8 @@
+node_modules
+.parcel-cache
+.DS_Store
+server/.devmode.json
+.env
+client/dist/*.js
+client/dist/*.map
+client/dist/*.html
