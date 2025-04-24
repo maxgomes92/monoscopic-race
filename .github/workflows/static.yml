@@ -38,6 +38,9 @@ jobs:
       - name: Install dependencies
         working-directory: client
         run: npm install
+      - name: Install lightningcss
+        working-directory: client
+        run: npm install lightningcss
       - name: Build
         working-directory: client
         run: npm run build
