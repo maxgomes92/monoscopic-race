@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/colyseus/create-colyseus/issues"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "homepage": "https://github.com/colyseus/create-colyseus#readme",
   "devDependencies": {
     "@colyseus/loadtest": "^0.16.0",
