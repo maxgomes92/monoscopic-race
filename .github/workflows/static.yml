@@ -43,7 +43,7 @@ jobs:
         run: npm install --save-dev parcel
       - name: Build
         working-directory: client
-        run: npm run build
+        run: npm run build -- --public-url /monoscopic-race/
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
