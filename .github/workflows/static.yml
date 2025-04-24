@@ -38,9 +38,9 @@ jobs:
       - name: Install dependencies
         working-directory: client
         run: npm install
-      - name: Install lightningcss
+      - name: Install parcel
         working-directory: client
-        run: npm install lightningcss
+        run: npm install --save-dev parcel
       - name: Build
         working-directory: client
         run: npm run build
