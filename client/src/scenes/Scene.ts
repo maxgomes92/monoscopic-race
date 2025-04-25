@@ -578,7 +578,7 @@ export class Part4Scene extends Phaser.Scene {
     }
 
     // Handle forward/backward movement (W/S keys)
-    const moveSpeed = 10;
+    const moveSpeed = 7;
     if (this.inputPayload.up) {
       // Move forward in the direction the car is facing
       this.playerVelocity.x = Math.cos(this.currentPlayer.rotation) * moveSpeed;
