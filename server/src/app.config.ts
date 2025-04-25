@@ -15,7 +15,7 @@ let gameServerRef: Server;
 
 export default config({
   options: {
-    devMode: true,
+    devMode: process.env.NODE_ENV === "development",
   },
 
   initializeGameServer: (gameServer) => {
